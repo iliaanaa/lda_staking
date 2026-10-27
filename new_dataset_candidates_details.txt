@@ -1,0 +1,485 @@
+==========================================================================================
+[42810] PCam  (v1)   N=4000, p=27648, μικρότερη κλάση=1977
+Κλάσεις (label): 0, 1
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: 
+
+==========================================================================================
+[1085] anthracyclineTaxaneChemotherapy  (v1)   N=159, p=61359, μικρότερη κλάση=64
+Κλάσεις (Decision): 1, 2
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: Data from the RSCTC 2010 Discovery Challenge. All datasets contain between 100 and 400 samples, characterized by values of 20,000 - 65,000 attributes. Samples are assigned to several (2-10) classes. All attributes are numeric and represent measurements from DNA microarrays. Attributes are normalized in some way - in test data you should expect similar distributions of attribute values as in the example data. Source: http://tunedit.org/challenge/RSCTC-2010-A
+
+==========================================================================================
+[46775] armstrong-2002-v1  (v1)   N=72, p=1081, μικρότερη κλάση=24
+Κλάσεις (target): 
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: Armstrong, Scott A, Jane E Staunton, Lewis B Silverman, Rob Pieters, Monique L den Boer, Mark D Minden, Stephen E Sallan, Eric S Lander, Todd R Golub, and Stanley J Korsmeyer. "MLL Translocations Specify a Distinct Gene Expression Profile That Distinguishes a Unique Leukemia." Nature Genetics 30, no. 1 (January 2002): 41-47.
+Paper: 
+Original: http://www.broad.mit.edu/mpr/publications/projects/Leukemia/expression_data.txt
+Περιγραφή: From original source: ----- The authors showed that clustering algorithms reveal that lymphoblastic leukemias with MLL translocations (MLL) can clearly be separated from conventional acute lymphoblastic (ALL) and acute myelogenous leukemias (AML). From these, we formed two data sets with the following distribution of samples: Armstrong-V1: 24 ALL and 48 MLL Armstrong-V2: 24 ALL, 20 MLL and 28 AML Parameters used in our filter: Armstrong-V1: l= 3 and c=30 Armstrong-V2: l= 3 and c=18
+
+==========================================================================================
+[42809] kits  (v1)   N=1000, p=27648, μικρότερη κλάση=480
+Κλάσεις (label): 0, 1
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: 
+
+==========================================================================================
+[42766] kits-subset  (v4)   N=100, p=27648, μικρότερη κλάση=48
+Κλάσεις (label): 0, 1
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: Subset of KITS dataset with 100 images and nominal target
+
+==========================================================================================
+[1104] leukemia  (v1)   N=72, p=7129, μικρότερη κλάση=25
+Κλάσεις (CLASS): ALL, AML
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: True
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring. Science, VOL 286, pp. 531-537, 15 October 1999. Web supplement to the article T.R. Golub, D. K. Slonim, P. Tamayo, C. Huard, M. Gaasenbeek, J. P. Mesirov, H. Coller, M. L. Loh, J. R. Downing, M. A. Caligiuri, C. D. Bloomfield, E. S. Lander. Original training test consists of 38 first instances.
+
+==========================================================================================
+[1101] lymphoma_2classes  (v1)   N=45, p=4026, μικρότερη κλάση=22
+Κλάσεις (class): ACL, GCL
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**:
+
+==========================================================================================
+[46855] toxicity  (v2)   N=171, p=1203, μικρότερη κλάση=56
+Κλάσεις (Class): NonToxic, Toxic
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: False
+Citation: Gul, S., Rahim, F., Isin, S., Yilmaz, F., Ozturk, N., Turkay, M., & Kavakli, I. H. (2021). Structure-based design and classifications of small molecules regulating the circadian rhythm period. Scientific reports, 11(1), 18510.
+Paper: https://www.nature.com/articles/s41598-021-97962-5
+Original: https://archive.ics.uci.edu/dataset/728/toxicity-2
+Περιγραφή: The dataset includes 171 molecules designed for functional domains of a core clock protein, CRY1, responsible for generating circadian rhythm. 56 of the molecules are toxic and the rest are non-toxic. What do the instances in this dataset represent? Small molecules Was there any data preprocessing performed? The data consists a complete set of 1203 molecular descriptors and needs feature selection before classification since some of the features are redundant. We used Recursive Feature Elimination together with Decision Tree Classifier (DTC) to get the best set of molecular descriptors for DTC. Subsetted data with 13 features is included as supplementary file. Has Missing Values? No
+
+==========================================================================================
+[1107] tumors_C  (v1)   N=60, p=7129, μικρότερη κλάση=21
+Κλάσεις (CLASS): 0, 1
+GEMLeR ιστοί: -   Πιθανό διπλότυπο: True
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: Embryonal tumours of the central nervous system Prediction of Central Nervous System Embryonal Tumour Outcome based on Gene Expression. Nature, VOL 415, pp. 436-442, 24 January 2002. Scott L. Pomeroy, Pablo Tamayo, Michelle Gaasenbeek, Lisa M. Sturla, Michael Angelo, Margaret E. McLaughlin, John Y. H. Kim, Liliana C. Goumnerova, Peter M. Black, Ching Lau, Jeffrey C. Allen, David Zagzag, James M. Olson, Tom Curran, Cynthia Wetmore, Jaclyn A. Biegel, Tomaso Poggio, Shayan Mukherjee, Ryan Rifkin, Andrea Califano, Gustavo Stolovitzky, David N. Louis, Jill P. Mesirov, Eric S. Lander & Todd R. Golub
+
+==========================================================================================
+[1128] OVA_Breast  (v1)   N=1545, p=10935, μικρότερη κλάση=344
+Κλάσεις (Tissue): Breast, Other
+GEMLeR ιστοί: Breast   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1145] AP_Breast_Colon  (v1)   N=630, p=10935, μικρότερη κλάση=286
+Κλάσεις (Tissue): Breast, Colon
+GEMLeR ιστοί: Breast+Colon   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1123] AP_Endometrium_Breast  (v1)   N=405, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Breast, Endometrium
+GEMLeR ιστοί: Breast+Endometrium   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1158] AP_Breast_Kidney  (v1)   N=604, p=10935, μικρότερη κλάση=260
+Κλάσεις (Tissue): Breast, Kidney
+GEMLeR ιστοί: Breast+Kidney   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1150] AP_Breast_Lung  (v1)   N=470, p=10935, μικρότερη κλάση=126
+Κλάσεις (Tissue): Breast, Lung
+GEMLeR ιστοί: Breast+Lung   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1127] AP_Breast_Omentum  (v1)   N=421, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Breast, Omentum
+GEMLeR ιστοί: Breast+Omentum   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1165] AP_Breast_Ovary  (v1)   N=542, p=10935, μικρότερη κλάση=198
+Κλάσεις (Tissue): Breast, Ovary
+GEMLeR ιστοί: Breast+Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1122] AP_Breast_Prostate  (v1)   N=413, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Breast, Prostate
+GEMLeR ιστοί: Breast+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1148] AP_Breast_Uterus  (v1)   N=468, p=10936, μικρότερη κλάση=124
+Κλάσεις (Tissue): Breast, Uterus
+GEMLeR ιστοί: Breast+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1161] OVA_Colon  (v1)   N=1545, p=10935, μικρότερη κλάση=286
+Κλάσεις (Tissue): Colon, Other
+GEMLeR ιστοί: Colon   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1133] AP_Endometrium_Colon  (v1)   N=347, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Colon, Endometrium
+GEMLeR ιστοί: Colon+Endometrium   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1137] AP_Colon_Kidney  (v1)   N=546, p=10935, μικρότερη κλάση=260
+Κλάσεις (Tissue): Colon, Kidney
+GEMLeR ιστοί: Colon+Kidney   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1126] AP_Colon_Lung  (v1)   N=412, p=10935, μικρότερη κλάση=126
+Κλάσεις (Tissue): Colon, Lung
+GEMLeR ιστοί: Colon+Lung   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1143] AP_Colon_Omentum  (v1)   N=363, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Colon, Omentum
+GEMLeR ιστοί: Colon+Omentum   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1153] AP_Colon_Ovary  (v1)   N=484, p=10935, μικρότερη κλάση=198
+Κλάσεις (Tissue): Colon, Ovary
+GEMLeR ιστοί: Colon+Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1135] AP_Colon_Prostate  (v1)   N=355, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Colon, Prostate
+GEMLeR ιστοί: Colon+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1160] AP_Colon_Uterus  (v1)   N=410, p=10935, μικρότερη κλάση=124
+Κλάσεις (Tissue): Colon, Uterus
+GEMLeR ιστοί: Colon+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1142] OVA_Endometrium  (v1)   N=1545, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Other
+GEMLeR ιστοί: Endometrium   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1157] AP_Endometrium_Kidney  (v1)   N=321, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Kidney
+GEMLeR ιστοί: Endometrium+Kidney   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1154] AP_Endometrium_Lung  (v1)   N=187, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Lung
+GEMLeR ιστοί: Endometrium+Lung   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1151] AP_Endometrium_Omentum  (v1)   N=138, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Omentum
+GEMLeR ιστοί: Endometrium+Omentum   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1159] AP_Endometrium_Ovary  (v1)   N=259, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Ovary
+GEMLeR ιστοί: Endometrium+Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1141] AP_Endometrium_Prostate  (v1)   N=130, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Prostate
+GEMLeR ιστοί: Endometrium+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1164] AP_Endometrium_Uterus  (v1)   N=185, p=10935, μικρότερη κλάση=61
+Κλάσεις (Tissue): Endometrium, Uterus
+GEMLeR ιστοί: Endometrium+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1134] OVA_Kidney  (v1)   N=1545, p=10935, μικρότερη κλάση=260
+Κλάσεις (Tissue): Kidney, Other
+GEMLeR ιστοί: Kidney   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1163] AP_Lung_Kidney  (v1)   N=386, p=10935, μικρότερη κλάση=126
+Κλάσεις (Tissue): Kidney, Lung
+GEMLeR ιστοί: Kidney+Lung   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1147] AP_Omentum_Kidney  (v1)   N=337, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Kidney, Omentum
+GEMLeR ιστοί: Kidney+Omentum   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1149] AP_Ovary_Kidney  (v1)   N=458, p=10935, μικρότερη κλάση=198
+Κλάσεις (Tissue): Kidney, Ovary
+GEMLeR ιστοί: Kidney+Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1144] AP_Prostate_Kidney  (v1)   N=329, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Kidney, Prostate
+GEMLeR ιστοί: Kidney+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1129] AP_Uterus_Kidney  (v1)   N=384, p=10935, μικρότερη κλάση=124
+Κλάσεις (Tissue): Kidney, Uterus
+GEMLeR ιστοί: Kidney+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1130] OVA_Lung  (v1)   N=1545, p=10935, μικρότερη κλάση=126
+Κλάσεις (Tissue): Lung, Other
+GEMLeR ιστοί: Lung   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1132] AP_Omentum_Lung  (v1)   N=203, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Lung, Omentum
+GEMLeR ιστοί: Lung+Omentum   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1140] AP_Ovary_Lung  (v1)   N=324, p=10936, μικρότερη κλάση=126
+Κλάσεις (Tissue): Lung, Ovary
+GEMLeR ιστοί: Lung+Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1155] AP_Prostate_Lung  (v1)   N=195, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Lung, Prostate
+GEMLeR ιστοί: Lung+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1136] AP_Lung_Uterus  (v1)   N=250, p=10935, μικρότερη κλάση=124
+Κλάσεις (Tissue): Lung, Uterus
+GEMLeR ιστοί: Lung+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1139] OVA_Omentum  (v1)   N=1545, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Omentum, Other
+GEMLeR ιστοί: Omentum   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1156] AP_Omentum_Ovary  (v1)   N=275, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Omentum, Ovary
+GEMLeR ιστοί: Omentum+Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1125] AP_Omentum_Prostate  (v1)   N=146, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Omentum, Prostate
+GEMLeR ιστοί: Omentum+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1124] AP_Omentum_Uterus  (v1)   N=201, p=10935, μικρότερη κλάση=77
+Κλάσεις (Tissue): Omentum, Uterus
+GEMLeR ιστοί: Omentum+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1166] OVA_Ovary  (v1)   N=1545, p=10935, μικρότερη κλάση=198
+Κλάσεις (Tissue): Other, Ovary
+GEMLeR ιστοί: Ovary   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1152] AP_Prostate_Ovary  (v1)   N=267, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Ovary, Prostate
+GEMLeR ιστοί: Ovary+Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1162] AP_Ovary_Uterus  (v1)   N=322, p=10935, μικρότερη κλάση=124
+Κλάσεις (Tissue): Ovary, Uterus
+GEMLeR ιστοί: Ovary+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1146] OVA_Prostate  (v1)   N=1545, p=10936, μικρότερη κλάση=69
+Κλάσεις (Tissue): Other, Prostate
+GEMLeR ιστοί: Prostate   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1131] AP_Prostate_Uterus  (v1)   N=193, p=10935, μικρότερη κλάση=69
+Κλάσεις (Tissue): Prostate, Uterus
+GEMLeR ιστοί: Prostate+Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 
+
+==========================================================================================
+[1138] OVA_Uterus  (v1)   N=1545, p=10935, μικρότερη κλάση=124
+Κλάσεις (Tissue): Other, Uterus
+GEMLeR ιστοί: Uterus   Πιθανό διπλότυπο: False
+Citation: 
+Paper: 
+Original: 
+Περιγραφή: **Author**: **Source**: Unknown - Date unknown **Please cite**: GEMLeR provides a collection of gene expression datasets that can be used for benchmarking gene expression oriented machine learning algorithms. They can be used for estimation of different quality metrics (e.g. accuracy, precision, area under ROC curve, etc.) for classification, feature selection or clustering algorithms. This repository was inspired by an increasing need in machine learning / bioinformatics communities for a collection of microarray classification problems that could be used by different researches. This way many different classification or feature selection techniques can finally be compared to eachother on the same set of problems. Origin of data Each gene expression sample in GEMLeR repository comes from a large publicly available expO (Expression Project For Oncology) repository by International Genomics Consortium. The goal of expO and its consortium supporters is to procure tissue samples under standard conditions and perform gene expression analyses on a clinically annotated set of deidentified tumor samples. The tumor data is updated with clinical outcomes and is released into the public domain without intellectual property restriction. The availability of this information translates into direct benefits for patients, researchers and pharma alike. Source: expO website Although there are various other sources of gene expression data available, a decision to use data from expO repository 

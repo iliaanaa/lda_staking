@@ -1,0 +1,38 @@
+Dataset,Group,Source,Loaded_With,OpenML_Name,OpenML_ID,N,p,Expected_N,Expected_p,Num_Classes,Class_Labels,Minority_Size,Positive_Class_For_F1,Positive_Rule,Missing_Values,Check,Included,Duplicate_Sample_IDs
+lymphoma_2classes,openml_new,OpenML,1101,lymphoma_2classes,1101,45,4026,45,4026.0,2,GCL=22 | ACL=23,22,ACL,ρητή,5948,OK,ΝΑΙ,
+armstrong-2002-v1,openml_new,OpenML,46775,armstrong-2002-v1,46775,72,1081,72,1081.0,2,ALL=24 | MLL=48,24,MLL,ρητή,0,OK,ΝΑΙ,
+anthracyclineTaxane,openml_new,OpenML,1085,anthracyclineTaxaneChemotherapy,1085,159,61359,159,61359.0,2,1=95 | 2=64,64,2,μειοψηφία,0,OK,ΝΑΙ,
+AP_Colon_Ovary,openml_new,OpenML,1153,AP_Colon_Ovary,1153,484,10935,484,,2,Colon=286 | Ovary=198,198,Ovary,μειοψηφία,0,OK,ΝΑΙ,
+AP_Endometrium_Breast,openml_new,OpenML,1123,AP_Endometrium_Breast,1123,405,10935,405,,2,Breast=344 | Endometrium=61,61,Endometrium,μειοψηφία,0,OK,ΝΑΙ,
+AP_Omentum_Kidney,openml_new,OpenML,1147,AP_Omentum_Kidney,1147,337,10935,337,,2,Kidney=260 | Omentum=77,77,Omentum,μειοψηφία,0,OK,ΝΑΙ,
+AP_Prostate_Uterus,openml_new,OpenML,1131,AP_Prostate_Uterus,1131,193,10935,193,,2,Uterus=124 | Prostate=69,69,Prostate,μειοψηφία,0,OK,ΝΑΙ,
+CuMiDa_Liver_GSE14520_U133A,cumida,CuMiDa,Liver_GSE14520_U133A.csv,-,-,357,22277,357,22277.0,2,normal=176 | HCC=181,176,HCC,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Pancreatic_GSE16515,cumida,CuMiDa,Pancreatic_GSE16515.csv,-,-,51,54675,51,54675.0,2,normal=15 | tumoral=36,15,tumoral,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Lung_GSE18842,cumida,CuMiDa,Lung_GSE18842.csv,-,-,90,54675,90,54675.0,2,normal=44 | tumoral=46,44,tumoral,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Lung_GSE19804,cumida,CuMiDa,Lung_GSE19804.csv,-,-,114,54675,114,54675.0,2,normal=58 | tumoral=56,56,tumoral,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Liver_GSE22405,cumida,CuMiDa,Liver_GSE22405.csv,-,-,48,22283,48,22283.0,2,normal=24 | heptocarcinoma=24,24,heptocarcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Leukemia_GSE22529_U133A,cumida,CuMiDa,Leukemia_GSE22529_U133A.csv,-,-,52,22283,52,22283.0,2,normal_B_Cell=11 | CLL=41,11,CLL,ασθένεια έναντι 'normal_B_Cell',0,OK,ΝΑΙ,0.0
+CuMiDa_Breast_GSE22820,cumida,CuMiDa,Breast_GSE22820.csv,-,-,139,33579,139,33579.0,2,normal=10 | primary_breast_cancer=129,10,primary_breast_cancer,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Colorectal_GSE25070,cumida,CuMiDa,Colorectal_GSE25070.csv,-,-,52,24526,52,24526.0,2,normal=26 | adenocarcinoma=26,26,adenocarcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Lung_GSE27262,cumida,CuMiDa,Lung_GSE27262.csv,-,-,48,54675,48,54675.0,2,normal=24 | Non_small_cell_lung_cancer=24,24,Non_small_cell_lung_cancer,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Bladder_GSE31189,cumida,CuMiDa,Bladder_GSE31189.csv,-,-,85,54675,85,54675.0,2,normal_urothelia=37 | tumoral_urothelia=48,37,tumoral_urothelia,ασθένεια έναντι 'normal_urothelia',0,OK,ΝΑΙ,0.0
+CuMiDa_Leukemia_GSE33615,cumida,CuMiDa,Leukemia_GSE33615.csv,-,-,71,33579,71,33579.0,2,normal=21 | ATL=50,21,ATL,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Breast_GSE38959,cumida,CuMiDa,Breast_GSE38959.csv,-,-,43,33579,43,33579.0,2,normal=13 | triple_negative_breast_cancer=30,13,triple_negative_breast_cancer,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Breast_GSE42568,cumida,CuMiDa,Breast_GSE42568.csv,-,-,116,54675,116,54675.0,2,normal=15 | tumoral=101,15,tumoral,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Throat_GSE42743,cumida,CuMiDa,Throat_GSE42743.csv,-,-,103,54675,103,54675.0,2,normal=29 | oral_cavity_cancer=74,29,oral_cavity_cancer,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Colorectal_GSE44076,cumida,CuMiDa,Colorectal_GSE44076.csv,-,-,194,49386,194,49386.0,2,normal=97 | adenocarcinoma=97,97,adenocarcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Colorectal_GSE44861,cumida,CuMiDa,Colorectal_GSE44861.csv,-,-,105,22277,105,22277.0,2,normal=53 | tumoral=52,52,tumoral,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Prostate_GSE46602,cumida,CuMiDa,Prostate_GSE46602.csv,-,-,49,54675,49,54675.0,2,normal=14 | tumoral=35,14,tumoral,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Liver_GSE50579,cumida,CuMiDa,Liver_GSE50579.csv,-,-,76,36547,76,36547.0,2,normal=12 | HCC=64,12,HCC,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Renal_GSE53757,cumida,CuMiDa,Renal_GSE53757.csv,-,-,143,54675,143,54675.0,2,normal=72 | ccRCC=71,71,ccRCC,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Liver_GSE57957,cumida,CuMiDa,Liver_GSE57957.csv,-,-,75,47323,75,47323.0,2,normal=36 | HCC=39,36,HCC,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Throat_GSE59102,cumida,CuMiDa,Throat_GSE59102.csv,-,-,42,32703,42,32703.0,2,normal=13 | larynx_squamous_cell_carcinoma=29,13,larynx_squamous_cell_carcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Breast_GSE59246,cumida,CuMiDa,Breast_GSE59246.csv,-,-,101,36622,101,36622.0,2,DCIS=45 | IBC=56,45,IBC,ρητή,0,OK,ΝΑΙ,0.0
+CuMiDa_Liver_GSE62232,cumida,CuMiDa,Liver_GSE62232.csv,-,-,91,54675,91,54675.0,2,normal=10 | HCC=81,10,HCC,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Leukemia_GSE63270,cumida,CuMiDa,Leukemia_GSE63270.csv,-,-,101,54675,101,54675.0,2,normal=41 | AML=60,41,AML,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Lung_GSE63459,cumida,CuMiDa,Lung_GSE63459.csv,-,-,65,24526,65,24526.0,2,normal=32 | adenocarcinoma=33,32,adenocarcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Prostate_GSE6919_U95Av2,cumida,CuMiDa,Prostate_GSE6919_U95Av2.csv,-,-,124,12625,124,12625.0,2,normal=62 | primary_prostate_tumor=62,62,primary_prostate_tumor,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Breast_GSE70947,cumida,CuMiDa,Breast_GSE70947.csv,-,-,289,35981,289,35981.0,2,normal=146 | breast_adenocarcinoma=143,143,breast_adenocarcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Liver_GSE76427,cumida,CuMiDa,Liver_GSE76427.csv,-,-,165,47322,165,47322.0,2,normal=50 | HCC=115,50,HCC,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Lung_GSE7670,cumida,CuMiDa,Lung_GSE7670.csv,-,-,51,22283,51,22283.0,2,normal=27 | adenocarcinoma=24,24,adenocarcinoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0
+CuMiDa_Colorectal_GSE8671,cumida,CuMiDa,Colorectal_GSE8671.csv,-,-,63,54675,63,54675.0,2,normal=32 | adenoma=31,31,adenoma,ασθένεια έναντι 'normal',0,OK,ΝΑΙ,0.0

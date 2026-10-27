@@ -1,0 +1,6 @@
+Dataset_A,Sample_A,Dataset_B,Sample_B,r
+AP_Colon_Ovary,row187,AP_Prostate_Uterus,row78,0.835
+AP_Endometrium_Breast,row190,CuMiDa_Breast_GSE42568,195,0.808
+AP_Endometrium_Breast,row190,CuMiDa_Breast_GSE42568,196,0.8
+AP_Endometrium_Breast,row190,CuMiDa_Breast_GSE42568,203,0.806
+AP_Endometrium_Breast,row190,CuMiDa_Breast_GSE42568,205,0.808

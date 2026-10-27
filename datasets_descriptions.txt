@@ -1,0 +1,153 @@
+================================================================================
+leukemia  (OpenML id=45090, name=Leukemia)
+Κλάσεις: {np.str_('ALL'): 47, np.str_('AML'): 25}
+Target column: CLASS
+Original data url: -
+Citation: Golub, D. Slonim, P. Tamayo, C. Huard, M. Gaasenbeek, J. Mesirov, H. Coller, M. Loh, J. Downing, M. Caligiuri, et al, Molecular classification of cancer: class discovery and class prediction by gene expression monitoring, Science 286 (5439) (1999) 531-53
+Paper url: https://www.science.org/doi/full/10.1126/science.286.5439.531
+
+DESCRIPTION:
+**Leukemia (Leukemia-2, AML, AML-2) dataset**
+
+**Authors**: Golub, D. Slonim, P. Tamayo, C. Huard, M. Gaasenbeek, J. Mesirov, H. Coller, M. Loh, J. Downing, M. Caligiuri, et al
+
+**Please cite**: ([URL](https://www.science.org/doi/full/10.1126/science.286.5439.531)): Golub, D. Slonim, P. Tamayo, C. Huard, M. Gaasenbeek, J. Mesirov, H. Coller, M. Loh, J. Downing, M. Caligiuri, et al, Molecular classification of cancer: class discovery and class prediction by gene expression monitoring, Science 286 (5439) (1999) 531-53
+
+Downloaded from openml.org.
+
+================================================================================
+colon  (OpenML id=45087, name=Colon)
+Κλάσεις: {np.str_('-1'): 40, np.str_('1'): 22}
+Target column: class
+Original data url: -
+Citation: U. Alon, N. Barkai, D. Notterman, K. Gish, S. Ybarra, D. Mack, A. Levine, Broad patterns of gene expression revealed by clustering analysis of tumor and normal colon tissues probed by oligonucleotide arrays, Proc. Nat. Acad. Sci. 96 (12) (1999) 6745-6750
+Paper url: https://www.pnas.org/doi/abs/10.1073/pnas.96.12.6745
+
+DESCRIPTION:
+**Colon dataset**
+
+**Authors**: U. Alon, N. Barkai, D. Notterman, K. Gish, S. Ybarra, D. Mack, A. Levine
+
+**Please cite**: ([URL](https://www.pnas.org/doi/abs/10.1073/pnas.96.12.6745)): U. Alon, N. Barkai, D. Notterman, K. Gish, S. Ybarra, D. Mack, A. Levine, Broad patterns of gene expression revealed by clustering analysis of tumor and normal colon tissues probed by oligonucleotide arrays, Proc. Nat. Acad. Sci. 96 (12) (1999) 6745-6750
+
+Downloaded from openml.org.
+
+================================================================================
+prostate  (OpenML id=45099, name=Prostate)
+Κλάσεις: {np.str_('1'): 52, np.str_('2'): 50}
+Target column: class
+Original data url: -
+Citation: D. Singh, P. Febbo, K. Ross, D. Jackson, J. Manola, C. Ladd, P. Tamayo, A. Renshaw, A. D'Amico, J. Richie, et al, Gene expression correlates of clinical prostate cancer behavior, Cancer Cell 1 (2) (2002) 203-209.
+Paper url: https://www.sciencedirect.com/science/article/pii/S1535610802000302
+
+DESCRIPTION:
+**Prostate dataset, 102 intances**
+
+**Authors**: D. Singh, P. Febbo, K. Ross, D. Jackson, J. Manola, C. Ladd, P. Tamayo, A. Renshaw, A. D'Amico, J. Richie, et al
+
+**Please cite**: ([URL](https://www.sciencedirect.com/science/article/pii/S1535610802000302)): D. Singh, P. Febbo, K. Ross, D. Jackson, J. Manola, C. Ladd, P. Tamayo, A. Renshaw, A. D'Amico, J. Richie, et al, Gene expression correlates of clinical prostate cancer behavior, Cancer Cell 1 (2) (2002) 203-209.
+
+Downloaded from openml.org.
+
+================================================================================
+SMK-CAN-187  (OpenML id=45100, name=SMK)
+Κλάσεις: {np.str_('1'): 90, np.str_('2'): 97}
+Target column: att1
+Original data url: -
+Citation: A. Spira, J. Beane, V. Shah, K. Steiling, G. Liu, F. Schembri, S. Gilman, Y. Dumas, P. Calner, P. Sebastiani, et al, Airway epithelial gene expression in the diagnostic evaluation of smokers with suspect lung cancer, Nat. Med. 13 (3) (2007) 361-366.
+Paper url: https://www.nature.com/articles/nm1556
+
+DESCRIPTION:
+**SMK (SMK-CAN-187) dataset**
+
+**Authors**: A. Spira, J. Beane, V. Shah, K. Steiling, G. Liu, F. Schembri, S. Gilman, Y. Dumas, P. Calner, P. Sebastiani, et al
+
+**Please cite**: ([URL](https://www.nature.com/articles/nm1556)): A. Spira, J. Beane, V. Shah, K. Steiling, G. Liu, F. Schembri, S. Gilman, Y. Dumas, P. Calner, P. Sebastiani, et al, Airway epithelial gene expression in the diagnostic evaluation of smokers with suspect lung cancer, Nat. Med. 13 (3) (2007) 361-366.
+
+Downloaded from openml.org.
+
+================================================================================
+GLI-85  (OpenML id=45089, name=GLI)
+Κλάσεις: {np.str_('1'): 26, np.str_('2'): 59}
+Target column: class
+Original data url: -
+Citation: W. Freije, F. Castro-Vargas, Z. Fang, S. Horvath, T. Cloughesy, L. Liau, P. Mischel, S. Nelson, Gene expression profiling of gliomas strongly predicts survival, Cancer Res. 64 (18) (2004) 6503-6510
+Paper url: https://www.scopus.com/record/display.uri?eid=2-s2.0-4644313275&origin=inward
+
+DESCRIPTION:
+**Gliomas (GLI, GLI-85) dataset**
+
+**Authors**: W. Freije, F. Castro-Vargas, Z. Fang, S. Horvath, T. Cloughesy, L. Liau, P. Mischel, S. Nelson
+
+**Please cite**: ([URL](https://www.scopus.com/record/display.uri?eid=2-s2.0-4644313275&origin=inward)): W. Freije, F. Castro-Vargas, Z. Fang, S. Horvath, T. Cloughesy, L. Liau, P. Mischel, S. Nelson, Gene expression profiling of gliomas strongly predicts survival, Cancer Res. 64 (18) (2004) 6503-6510
+
+Downloaded from openml.org.
+
+================================================================================
+dlbcl  (OpenML id=45088, name=DLBCL)
+Κλάσεις: {np.str_('0'): 58, np.str_('1'): 19}
+Target column: class
+Original data url: -
+Citation: M. Shipp, K. Ross, P. Tamayo, A. Weng, J. Kutok, R. Aguiar, M. Gaasenbeek, M. Angelo, M. Reich, G. Pinkus, et al, Diffuse large b-cell lymphoma outcome prediction by gene-expression profiling and supervised machine learning, Nat. Med. 8 (1) (2002) 68-74
+Paper url: https://www.scopus.com/record/display.uri?eid=2-s2.0-18244409933&origin=inward
+
+DESCRIPTION:
+**Diffuse large B-cell lymphoma (DLBCL) dataset**
+
+**Authors**: M. Shipp, K. Ross, P. Tamayo, A. Weng, J. Kutok, R. Aguiar, M. Gaasenbeek, M. Angelo, M. Reich, G. Pinkus, et al
+
+**Please cite**: ([URL](https://www.scopus.com/record/display.uri?eid=2-s2.0-18244409933&origin=inward)): M. Shipp, K. Ross, P. Tamayo, A. Weng, J. Kutok, R. Aguiar, M. Gaasenbeek, M. Angelo, M. Reich, G. Pinkus, et al, Diffuse large b-cell lymphoma outcome prediction by gene-expression profiling and supervised machine learning, Nat. Med. 8 (1) (2002) 68-74
+
+Downloaded from openml.org.
+
+================================================================================
+ovarian  (OpenML id=45098, name=Ovarian)
+Κλάσεις: {np.str_('Cancer'): 162, np.str_('Normal'): 91}
+Target column: Class
+Original data url: -
+Citation: E. Petricoin, A. Ardekani, B. Hitt, P. Levine, V. Fusaro, S. Steinberg, G. Mills, C. Simone, D. Fishman, E. Kohn, et al, Use of proteomic patterns in serum to identify ovarian cancer, Lancet 359 (9306) (2002) 572-577
+Paper url: https://www.sciencedirect.com/science/article/abs/pii/S0140673602077462
+
+DESCRIPTION:
+**Ovarian dataset**
+
+**Authors**: E. Petricoin, A. Ardekani, B. Hitt, P. Levine, V. Fusaro, S. Steinberg, G. Mills, C. Simone, D. Fishman, E. Kohn, et al
+
+**Please cite**: ([URL](https://www.sciencedirect.com/science/article/abs/pii/S0140673602077462)): E. Petricoin, A. Ardekani, B. Hitt, P. Levine, V. Fusaro, S. Steinberg, G. Mills, C. Simone, D. Fishman, E. Kohn, et al, Use of proteomic patterns in serum to identify ovarian cancer, Lancet 359 (9306) (2002) 572-577
+
+Downloaded from openml.org.
+
+================================================================================
+CNS  (OpenML id=45086, name=CNS)
+Κλάσεις: {np.str_('0'): 39, np.str_('1'): 21}
+Target column: CLASS
+Original data url: -
+Citation: S. Pomeroy, P. Tamayo, M. Gaasenbeek, L. Sturla, M. Angelo, M. McLaughlin, J. Kim, L. Goumnerova, P. Black, C. Lau, et al, Prediction of central nervous system embryonal tumour outcome based on gene expression, Nature 415 (6870) (2002) 436-442.
+Paper url: https://www.scopus.com/record/display.uri?eid=2-s2.0-0037165140&origin=inward
+
+DESCRIPTION:
+**Central Nervous System (CNS, Embrional-T) dataset**
+
+**Authors**: S. Pomeroy, P. Tamayo, M. Gaasenbeek, L. Sturla, M. Angelo, M. McLaughlin, J. Kim, L. Goumnerova, P. Black, C. Lau, et al
+
+**Please cite**: ([URL](https://www.scopus.com/record/display.uri?eid=2-s2.0-0037165140&origin=inward)): S. Pomeroy, P. Tamayo, M. Gaasenbeek, L. Sturla, M. Angelo, M. McLaughlin, J. Kim, L. Goumnerova, P. Black, C. Lau, et al, Prediction of central nervous system embryonal tumour outcome based on gene expression, Nature 415 (6870) (2002) 436-442.
+
+Downloaded from openml.org.
+
+================================================================================
+Breast  (OpenML id=45085, name=Breast)
+Κλάσεις: {np.str_('non-relapse'): 51, np.str_('relapse'): 46}
+Target column: Class
+Original data url: -
+Citation: L. van't Veer, H. Dai, M. Van De Vijver, Y. He, A. Hart, M. Mao, H. Peterse, K. van der Kooy, M. Marton, A. Witteveen, et al, Gene expression profiling predicts clinical outcome of breast cancer, Nature 415 (6871) (2002) 530-536
+Paper url: https://www.nature.com/articles/415530a
+
+DESCRIPTION:
+**Breast Cancer dataset**
+
+**Authors**: L. van't Veer, H. Dai, M. Van De Vijver, Y. He, A. Hart, M. Mao, H. Peterse, K. van der Kooy, M. Marton, A. Witteveen, et al
+
+**Please cite**: ([URL](https://www.nature.com/articles/415530a)): L. van't Veer, H. Dai, M. Van De Vijver, Y. He, A. Hart, M. Mao, H. Peterse, K. van der Kooy, M. Marton, A. Witteveen, et al, Gene expression profiling predicts clinical outcome of breast cancer, Nature 415 (6871) (2002) 530-536
+
+Downloaded from openml.org.
+
